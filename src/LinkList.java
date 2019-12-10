@@ -1,5 +1,3 @@
-import org.w3c.dom.Node;
-
 import java.awt.*;
 
 public class LinkList extends EasyApp
@@ -43,12 +41,6 @@ public class LinkList extends EasyApp
         else if (source == bShowTail ) { showTail(); }
         else if (source == bDeleteNode) { deleteNode(); }
         else if (source == bCountNodes) { countNodes(); }
-    }
-
-    static class Node {
-        String name = "";
-        int age = 0;
-        Node next = null;
     }
 
     private void firstNode() {
